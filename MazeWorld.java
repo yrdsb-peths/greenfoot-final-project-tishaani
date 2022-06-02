@@ -1,23 +1,21 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Description
+ * Write a description of class MazeWorld here.
  * 
- * @author Tishaani Ragavan
- * @version June 2022
+ * @author (your name) 
+ * @version (a version number or a date)
  */
-public class MyWorld extends World
+public class MazeWorld extends World
 {
 
     /**
-     * Constructor for objects of class MyWorld.
+     * Constructor for objects of class MazeWorld.
      * 
      */
-    public MyWorld()
+    public MazeWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-        
-    
     }
 }
