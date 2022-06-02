@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Bee here.
+ * The Bee, the main character.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Tishaani Ragavan
+ * @version June 2022
  */
 public class Bee extends Actor
 {
@@ -15,5 +15,6 @@ public class Bee extends Actor
     public void act()
     {
         // Add your action code here.
+        move(1);
     }
 }
