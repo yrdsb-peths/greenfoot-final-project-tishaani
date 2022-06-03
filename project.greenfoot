@@ -1,5 +1,6 @@
 #Greenfoot project file
 class.MazeBlock.image=Wall.jpg
+<<<<<<< HEAD
 class.MazeRunner.image=mouse.png
 class.MazeWorld.image=fingerprint.jpg
 dependency1.from=MazeWorld
@@ -12,6 +13,18 @@ editor.fx.0.y=63
 height=745
 package.numDependencies=1
 package.numTargets=3
+=======
+class.MazeWorld.image=sand.jpg
+class.MyWorld.image=space.jpg
+class.ShipPlayer.image=rocket.png
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=551
+package.numDependencies=0
+package.numTargets=4
+>>>>>>> 90a17b69d92de0b5dec9d15b8cfb959631922726
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
