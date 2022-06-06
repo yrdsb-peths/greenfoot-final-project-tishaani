@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Movers extends Actor
 {
+    int speed = 4;
     /**
      * Act - do whatever the Movers wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -46,20 +47,54 @@ public class Movers extends Actor
         int y = getY();
        if (Greenfoot.isKeyDown("right"))
     {
-        setLocation(x + 4, y);
+        setLocation(x + speed, y);
+        if (hitWalls())
+        {
+          setLocation(x - speed, y);  
+        }
     }
     if (Greenfoot.isKeyDown("left"))
     {
-        setLocation(x - 4, y);
+        setLocation(x - speed, y);
+        if (hitWalls())
+        {
+          setLocation(x + speed, y);  
+        }
     }
     if(Greenfoot.isKeyDown("up"))
     {
-        setLocation(x, y-4);
+        setLocation(x, y-speed);
+        if (hitWalls())
+        {
+          setLocation(x, y+speed);  
+        }
     }
     if(Greenfoot.isKeyDown("down"))
     {
         setLocation(x, y+4);
+        if (hitWalls())
+        {
+          setLocation(x, y-4);  
+        }
     }  
+    }
+    public boolean hitWalls()
+    {
+        if (isTouching(MazeBlock.class))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    public void collectBoost()
+    {
+        if (isTouching(SpeedBoost.class))
+        {
+            speed = speed + 1;
+        }
     }
 }
 
