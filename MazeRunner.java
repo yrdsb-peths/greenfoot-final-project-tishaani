@@ -12,6 +12,7 @@ public class MazeRunner extends Movers
      * Act - do whatever the MazeRunner wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    //Create contructor method. 
      public MazeRunner()
     {
         getImage().scale(getImage().getWidth()/2,getImage().getHeight()/2);
@@ -20,6 +21,6 @@ public class MazeRunner extends Movers
     {
         // Add your action code here.
         slideAround();
-       
+        collectBoost();
     }
 }
