@@ -19,7 +19,7 @@ public class MazeRunner extends Movers
     public void act()
     {
         // Add your action code here.
-        moveAndTurn();
+        slideAround();
        
     }
 }
