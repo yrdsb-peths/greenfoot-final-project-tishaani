@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author Tishaani Ragavan
  * @version June 2022
  */
-public class MazeRunner extends Actor
+public class MazeRunner extends Movers
 {
     /**
      * Act - do whatever the MazeRunner wants to do. This method is called whenever
@@ -19,6 +19,7 @@ public class MazeRunner extends Actor
     public void act()
     {
         // Add your action code here.
+        moveAndTurn();
        
     }
 }
