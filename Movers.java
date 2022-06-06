@@ -93,7 +93,8 @@ public class Movers extends Actor
     {
         if (isTouching(SpeedBoost.class))
         {
-            speed = speed + 1;
+            speed++;
+            removeTouching(SpeedBoost.class);
         }
     }
 }
