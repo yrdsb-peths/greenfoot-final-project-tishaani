@@ -40,5 +40,26 @@ public class Movers extends Actor
         move(4);
     }
     }
+    public void slideAround()
+    {
+        int x = getX();
+        int y = getY();
+       if (Greenfoot.isKeyDown("right"))
+    {
+        setLocation(x + 4, y);
+    }
+    if (Greenfoot.isKeyDown("left"))
+    {
+        setLocation(x - 4, y);
+    }
+    if(Greenfoot.isKeyDown("up"))
+    {
+        setLocation(x, y-4);
+    }
+    if(Greenfoot.isKeyDown("down"))
+    {
+        setLocation(x, y+4);
+    }  
+    }
 }
 
