@@ -18,6 +18,13 @@ public class Movers extends Actor
         // Add your action code here.
         
     }
+    public void maxSpeed()
+    {
+        if (speed>=7)
+        {
+            speed = 7;
+        }
+    }
     public void moveAndTurn()
     {
         if (Greenfoot.isKeyDown("right"))
@@ -93,7 +100,8 @@ public class Movers extends Actor
     {
         if (isTouching(SpeedBoost.class))
         {
-            speed = speed + 1;
+            speed++;
+            removeTouching(SpeedBoost.class);
         }
     }
 }
