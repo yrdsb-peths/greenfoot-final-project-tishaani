@@ -19,6 +19,7 @@ public class MazeWorld extends World
         super(600, 600, 1); 
         prepare();
     }
+    
     /**
      * Prepare the world for the start of the program.
      * That is: create the initial objects and add them to the world.
@@ -120,5 +121,43 @@ public class MazeWorld extends World
         addObject(mazeBlock46,8*50,10*50);
         MazeBlock mazeBlock47 = new MazeBlock();
         addObject(mazeBlock47,10*50,11*50);
+        MazeRunner mazeRunner = new MazeRunner();
+        addObject(mazeRunner,41,565);
+        SpeedBoost speedBoost = new SpeedBoost();
+        addObject(speedBoost,33,344);
+        SpeedBoost speedBoost2 = new SpeedBoost();
+        addObject(speedBoost2,157,106);
+        SpeedBoost speedBoost3 = new SpeedBoost();
+        addObject(speedBoost3,445,251);
+        MazeBlock mazeBlock48 = new MazeBlock();
+        addObject(mazeBlock48,98,299);
+        MazeBlock mazeBlock49 = new MazeBlock();
+        addObject(mazeBlock49,499,599);
+        MazeBlock mazeBlock50 = new MazeBlock();
+        addObject(mazeBlock50,300,599);
+        MazeBlock mazeBlock51 = new MazeBlock();
+        addObject(mazeBlock51,98,598);
+        MazeBlock mazeBlock52 = new MazeBlock();
+        addObject(mazeBlock52,300,201);
+        MazeBlock mazeBlock53 = new MazeBlock();
+        addObject(mazeBlock53,550,52);
+        MazeBlock mazeBlock54 = new MazeBlock();
+        addObject(mazeBlock54,550,199);
+        MazeBlock mazeBlock55 = new MazeBlock();
+        addObject(mazeBlock55,550,447);
+        MazeBlock mazeBlock56 = new MazeBlock();
+        addObject(mazeBlock56,599,52);
+        MazeBlock mazeBlock57 = new MazeBlock();
+        addObject(mazeBlock57,599,199);
+        MazeBlock mazeBlock58 = new MazeBlock();
+        addObject(mazeBlock58,598,447);
+        MazeBlock mazeBlock59 = new MazeBlock();
+        addObject(mazeBlock59,596,549);
+        MazeBlock mazeBlock60 = new MazeBlock();
+        addObject(mazeBlock60,597,599);
+        SpeedBoost speedBoost4 = new SpeedBoost();
+        addObject(speedBoost4,397,49);
+        SpeedBoost speedBoost5 = new SpeedBoost();
+        addObject(speedBoost5,246,576);
     }
 }
