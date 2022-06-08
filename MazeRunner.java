@@ -23,6 +23,13 @@ public class MazeRunner extends Movers
         slideAround();
         collectBoost();
         maxSpeed();
-
+        mazeRunnerHit();
+    }
+    public void mazeRunnerHit()
+    {
+        if (hitEnemy())
+        {
+            setLocation(40,560);
+        }
     }
 }
