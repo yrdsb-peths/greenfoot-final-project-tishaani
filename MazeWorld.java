@@ -161,5 +161,13 @@ public class MazeWorld extends World
         addObject(speedBoost5,246,576);
         MazeBlock mazeBlock61 = new MazeBlock();
         addObject(mazeBlock61,148,299);
+        MazeBlock mazeBlock62 = new MazeBlock();
+        addObject(mazeBlock62,401,599);
+        EnemyFlyer enemyFlyer = new EnemyFlyer();
+        addObject(enemyFlyer,152,246);
+        EnemyFlyer enemyFlyer2 = new EnemyFlyer();
+        addObject(enemyFlyer2,306,151);
+        EnemyFlyer enemyFlyer3 = new EnemyFlyer();
+        addObject(enemyFlyer3,353,356);
     }
 }
