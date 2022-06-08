@@ -159,5 +159,7 @@ public class MazeWorld extends World
         addObject(speedBoost4,397,49);
         SpeedBoost speedBoost5 = new SpeedBoost();
         addObject(speedBoost5,246,576);
+        MazeBlock mazeBlock61 = new MazeBlock();
+        addObject(mazeBlock61,148,299);
     }
 }

@@ -11,7 +11,6 @@ dependency1.type=UsesDependency
 dependency2.from=MazeWorld
 dependency2.to=MazeRunner
 dependency2.type=UsesDependency
-<<<<<<< HEAD
 dependency3.from=MazeWorld
 dependency3.to=SpeedBoost
 dependency3.type=UsesDependency
@@ -21,23 +20,12 @@ dependency4.type=UsesDependency
 dependency5.from=Movers
 dependency5.to=SpeedBoost
 dependency5.type=UsesDependency
-editor.fx.0.height=722
-editor.fx.0.width=800
-editor.fx.0.x=625
-editor.fx.0.y=35
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 height=745
 package.numDependencies=5
-=======
-dependency3.from=Movers
-dependency3.to=SpeedBoost
-dependency3.type=UsesDependency
-editor.fx.0.height=762
-editor.fx.0.width=844
-editor.fx.0.x=596
-editor.fx.0.y=31
-height=745
-package.numDependencies=3
->>>>>>> 95243741d896c39694e2b3a5b6d82fa717c1067c
 package.numTargets=7
 project.charset=UTF-8
 publish.hasSource=false
