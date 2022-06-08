@@ -22,9 +22,7 @@ public class MazeRunner extends Movers
         // Add your action code here.
         slideAround();
         collectBoost();
-<<<<<<< HEAD
         maxSpeed();
-=======
->>>>>>> 95243741d896c39694e2b3a5b6d82fa717c1067c
+
     }
 }
