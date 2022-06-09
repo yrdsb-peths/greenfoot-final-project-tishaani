@@ -24,6 +24,7 @@ public class MazeRunner extends Movers
         collectBoost();
         maxSpeed();
         mazeRunnerHit();
+        youWin();
     }
     public void mazeRunnerHit()
     {
@@ -36,7 +37,7 @@ public class MazeRunner extends Movers
     {
         if(isTouching(YouWinPlatform.class))
         {
-            getWorld().addObject(YouWinScreen.
+            getWorld().addObject(new YouWinScreen(),getWorld().getWidth()/2 ,getWorld().getHeight()/2);
         }
     }
 }
