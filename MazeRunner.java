@@ -32,4 +32,11 @@ public class MazeRunner extends Movers
             setLocation(40,560);
         }
     }
+    public void youWin()
+    {
+        if(isTouching(YouWinPlatform.class))
+        {
+            getWorld().addObject(YouWinScreen.
+        }
+    }
 }

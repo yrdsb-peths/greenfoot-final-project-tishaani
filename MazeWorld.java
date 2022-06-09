@@ -169,5 +169,7 @@ public class MazeWorld extends World
         addObject(enemyFlyer2,306,151);
         EnemyFlyer enemyFlyer3 = new EnemyFlyer();
         addObject(enemyFlyer3,353,356);
+        YouWinPlatform youWinPlatform = new YouWinPlatform();
+        addObject(youWinPlatform,549,573);
     }
 }
