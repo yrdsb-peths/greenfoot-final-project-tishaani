@@ -1,13 +1,16 @@
 #BlueJ class context
 comment0.target=MazeRunner
 comment0.text=\n\ Mouse,\ going\ through\ the\ maze/\n\ \n\ @author\ Tishaani\ Ragavan\n\ @version\ June\ 2022\n
-comment1.params=
-comment1.target=MazeRunner()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ MazeRunner\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment1.params=lives
+comment1.target=MazeRunner(int)
 comment2.params=
 comment2.target=void\ act()
 comment3.params=
 comment3.target=void\ mazeRunnerHit()
 comment4.params=
-comment4.target=void\ youWin()
-numComments=5
+comment4.target=void\ loseLife()
+comment5.params=
+comment5.target=void\ youLose()
+comment6.params=
+comment6.target=void\ youWin()
+numComments=7

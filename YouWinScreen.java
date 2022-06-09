@@ -16,4 +16,8 @@ public class YouWinScreen extends Actor
     {
         // Add your action code here.
     }
+    public YouWinScreen()
+    {
+        getImage().scale(getImage().getWidth()/2,getImage().getHeight()/2);
+    }
 }
