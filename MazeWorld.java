@@ -172,4 +172,11 @@ public class MazeWorld extends World
         YouWinPlatform youWinPlatform = new YouWinPlatform();
         addObject(youWinPlatform,549,573);
     }
+    public void act()
+    {
+        if(Greenfoot.isKeyDown("Space"))
+        {
+            
+        }
+    }
 }
