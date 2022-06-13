@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
-    Label titleLabel = new Label("Maze Runner", 60);
+    //Label titleLabel = new Label("Maze Runner", 60);
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -18,7 +18,7 @@ public class MyWorld extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
         
-        addObject(titleLabel, getWidth()/2, getHeight()/2);
+        //addObject(titleLabel, getWidth()/2, getHeight()/2);
     }
     
     public void act()
