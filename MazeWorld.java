@@ -8,7 +8,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MazeWorld extends World
 {
-
+    //Creating code for how many lives are left.
+    public static int score = 3;
     /**
      * Constructor for objects of class MazeWorld.
      * 
@@ -20,6 +21,11 @@ public class MazeWorld extends World
         prepare();
     }
     
+    public void act()
+    {
+        //Creating code for how many lives are left.
+        showText("Lives Left: " + score, 100, 20);
+    }
     /**
      * Prepare the world for the start of the program.
      * That is: create the initial objects and add them to the world.

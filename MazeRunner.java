@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MazeRunner extends Movers
 {
+    MazeWorld thisGame;
     /**
      * Act - do whatever the MazeRunner wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -35,6 +36,7 @@ public class MazeRunner extends Movers
         if (hitEnemy())
         {
             setLocation(40,560);
+            Greenfoot.playSound("collectSound.mp3");
         }
     }
     public void loseLife()
@@ -42,6 +44,8 @@ public class MazeRunner extends Movers
         if (hitEnemy())
         {
             mazeRunnerLives--;
+            thisGame.score--;
+            Greenfoot.playSound("collectSound.mp3");
         }
     }
     public void youLose()
