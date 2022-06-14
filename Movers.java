@@ -102,13 +102,14 @@ public class Movers extends Actor
         {
             speed++;
             removeTouching(SpeedBoost.class);
+            
         }
     }
     public boolean hitEnemy()
     {
        if (isTouching(Enemies.class))
        {
-         return true;  
+         return true;
        }
        else
        {
