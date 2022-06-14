@@ -20,9 +20,9 @@ public class Movers extends Actor
     }
     public void maxSpeed()
     {
-        if (speed>=7)
+        if (speed>=10)
         {
-            speed = 7;
+            speed = 10;
         }
     }
     public void moveAndTurn()
