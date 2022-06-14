@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author Tishaani Ragavan
  * @version June 2022
  */
-public class welcomeLabel extends Actor
+public class WelcomeLabel extends Actor
 {
     /**
      * Act - do whatever the welcomeLabel wants to do. This method is called whenever

@@ -19,5 +19,6 @@ public class YouWinPlatform extends Actor
     public YouWinPlatform()
     {
         getImage().scale(getImage().getWidth()/2,getImage().getHeight()/2);
+        
     }
 }

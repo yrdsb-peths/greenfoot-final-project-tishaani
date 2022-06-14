@@ -19,5 +19,6 @@ public class YouWinScreen extends Actor
     public YouWinScreen()
     {
         getImage().scale(getImage().getWidth()/2,getImage().getHeight()/2);
+        Greenfoot.playSound("winSound.mp3");
     }
 }
