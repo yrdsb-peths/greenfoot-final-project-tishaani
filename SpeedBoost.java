@@ -15,6 +15,7 @@ public class SpeedBoost extends Actor
     public SpeedBoost()
     {
         getImage().scale(getImage().getWidth()/2,getImage().getHeight()/2);
+        Greenfoot.playSound("collectSound.mp3");
     }
     public void act()
     {
