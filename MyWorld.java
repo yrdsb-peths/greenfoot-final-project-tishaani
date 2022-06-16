@@ -45,7 +45,7 @@ public class MyWorld extends World
         pressStart.setLocation(300,200);
         WelcomeLabel welcomeLabel = new WelcomeLabel();
         addObject(welcomeLabel,298,77);
-        goalGame goalGame = new goalGame();
+        GoalGame goalGame = new GoalGame();
         addObject(goalGame,298,359);
         goalGame.setLocation(296,355);
     }

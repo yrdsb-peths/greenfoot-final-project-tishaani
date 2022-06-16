@@ -7,7 +7,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author Tishaani Ragavan
  * @version June 2022
  */
-public class goalGame extends Actor
+public class GoalGame extends Actor
 {
     /**
      * Act - do whatever the goalGame wants to do. This method is called whenever
@@ -17,7 +17,7 @@ public class goalGame extends Actor
     {
         // Add your action code here.
     }
-    public goalGame()
+    public GoalGame()
     {
         getImage().scale(getImage().getWidth()/2,getImage().getHeight()/2);
     }
