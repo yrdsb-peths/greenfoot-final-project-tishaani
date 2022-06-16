@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Enemies here.
+ * Enemies
  * 
  * @author Tishaani Ragavan
  * @version June 2022

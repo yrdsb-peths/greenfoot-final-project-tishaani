@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Movers here.
+ * A class for all moving objects.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Tishaani Ragavan
+ * June 2022
  */
 public class Movers extends Actor
 {
@@ -102,7 +102,7 @@ public class Movers extends Actor
         {
             speed++;
             removeTouching(SpeedBoost.class);
-            
+            Greenfoot.playSound("collectSound.mp3");
         }
     }
     public boolean hitEnemy()

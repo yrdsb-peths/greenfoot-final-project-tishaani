@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class MazeBlock here.
+ * MazeBlocks
  * 
  * @author Tishaani Ragavan
  * @version June 2022

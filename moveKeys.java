@@ -1,12 +1,12 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class moveKeys here.
+ * Keys to move label
  * 
  * @author Tishaani Ragavan
  * @version June 2022
  */
-public class MoveKeys extends Actor
+public class moveKeys extends Actor
 {
     /**
      * Act - do whatever the moveKeys wants to do. This method is called whenever
@@ -16,7 +16,7 @@ public class MoveKeys extends Actor
     {
         // Add your action code here.
     }
-    public MoveKeys()
+    public moveKeys()
     {
         getImage().scale(getImage().getWidth()/3,getImage().getHeight()/3);
     }

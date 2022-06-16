@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class MazeWorld here.
+ * World for maze game with mouse and obstacles. 
  * 
  * @author Tishaani Ragavan 
  * @version June 2022

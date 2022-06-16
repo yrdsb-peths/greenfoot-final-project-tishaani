@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class welcomeLabel here.
+ * Label 1 for opening screen
  * 
  * @author Tishaani Ragavan
  * @version June 2022

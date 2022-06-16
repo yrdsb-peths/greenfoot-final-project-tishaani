@@ -19,7 +19,7 @@ public class MyWorld extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1);
         //backgroundMusic.playLoop();
-        addObject(new MoveKeys(), 300,300);
+        addObject(new moveKeys(), 300,300);
 
         prepare();
     }
@@ -40,12 +40,12 @@ public class MyWorld extends World
      */
     private void prepare()
     {
-        PressStart pressStart = new PressStart();
+        pressStart pressStart = new pressStart();
         addObject(pressStart,288,120);
         pressStart.setLocation(300,200);
         WelcomeLabel welcomeLabel = new WelcomeLabel();
         addObject(welcomeLabel,298,77);
-        GoalGame goalGame = new GoalGame();
+        goalGame goalGame = new goalGame();
         addObject(goalGame,298,359);
         goalGame.setLocation(296,355);
     }

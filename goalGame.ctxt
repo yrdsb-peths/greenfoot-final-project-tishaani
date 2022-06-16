@@ -1,9 +1,9 @@
 #BlueJ class context
-comment0.target=GoalGame
-comment0.text=\n\ Write\ a\ description\ of\ class\ goalGame\ here.\n\ \n\ @author\ Tishaani\ Ragavan\n\ @version\ June\ 2022\n
+comment0.target=goalGame
+comment0.text=\n\ \n\ \n\ \n\ @author\ Tishaani\ Ragavan\n\ @version\ June\ 2022\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\n\ Act\ -\ do\ whatever\ the\ goalGame\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
 comment2.params=
-comment2.target=GoalGame()
+comment2.target=goalGame()
 numComments=3

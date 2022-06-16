@@ -1,12 +1,13 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class goalGame here.
+ * 
+ * Goal of the game label
  * 
  * @author Tishaani Ragavan
  * @version June 2022
  */
-public class GoalGame extends Actor
+public class goalGame extends Actor
 {
     /**
      * Act - do whatever the goalGame wants to do. This method is called whenever
@@ -16,7 +17,7 @@ public class GoalGame extends Actor
     {
         // Add your action code here.
     }
-    public GoalGame()
+    public goalGame()
     {
         getImage().scale(getImage().getWidth()/2,getImage().getHeight()/2);
     }

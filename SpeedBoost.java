@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class SpeedBoost here.
+ * Fuel for mouse. 
  * 
  * @author Tishaani Ragavan
  * @version June 2022
@@ -15,7 +15,7 @@ public class SpeedBoost extends Actor
     public SpeedBoost()
     {
         getImage().scale(getImage().getWidth()/2,getImage().getHeight()/2);
-        Greenfoot.playSound("collectSound.mp3");
+        
     }
     public void act()
     {

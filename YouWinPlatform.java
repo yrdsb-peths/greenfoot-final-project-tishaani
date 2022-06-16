@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class YouWinPlatform here.
+ * Reward or end goal
  * 
  * @author Tishaani Ragavan
  * @version June 2022
