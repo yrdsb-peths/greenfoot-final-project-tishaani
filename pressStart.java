@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author Tishaani Ragavan
  * @version June 2022
  */
-public class pressStart extends Actor
+public class PressStart extends Actor
 {
     /**
      * Act - do whatever the pressStart wants to do. This method is called whenever

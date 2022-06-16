@@ -40,7 +40,7 @@ public class MyWorld extends World
      */
     private void prepare()
     {
-        pressStart pressStart = new pressStart();
+        PressStart pressStart = new PressStart();
         addObject(pressStart,288,120);
         pressStart.setLocation(300,200);
         WelcomeLabel welcomeLabel = new WelcomeLabel();
