@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author Tishaani Ragavan
  * @version June 2022
  */
-public class moveKeys extends Actor
+public class MoveKeys extends Actor
 {
     /**
      * Act - do whatever the moveKeys wants to do. This method is called whenever
@@ -16,7 +16,7 @@ public class moveKeys extends Actor
     {
         // Add your action code here.
     }
-    public moveKeys()
+    public MoveKeys()
     {
         getImage().scale(getImage().getWidth()/3,getImage().getHeight()/3);
     }
