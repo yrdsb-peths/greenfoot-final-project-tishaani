@@ -36,7 +36,7 @@ public class MazeRunner extends Movers
         if (hitEnemy())
         {
             setLocation(40,560);
-            Greenfoot.playSound("collectSound.mp3");
+            Greenfoot.playSound("sounds/collectSound.mp3");
         }
     }
     public void loseLife()
@@ -45,7 +45,7 @@ public class MazeRunner extends Movers
         {
             mazeRunnerLives--;
             thisGame.score--;
-            Greenfoot.playSound("collectSound.mp3");
+            Greenfoot.playSound("sounds/collectSound.mp3");
         }
     }
     public void youLose()
